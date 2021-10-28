@@ -1,34 +1,32 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { Flex, Spacer, Box, Heading } from "@chakra-ui/react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+  <Box as={"header"}>
+    <nav>
+      <Flex align={"center"} py={3} px={5}>
+        <Box>
+          <Heading m={0}>
+            <Link to="/">{siteTitle}</Link>
+          </Heading>
+        </Box>
+        <Spacer />
+        <Box>
+          <Link to="/profile">プロフィール</Link>
+        </Box>
+        <Box ml={5}>
+          {" "}
+          <Link to="/music">ミュージック</Link>
+        </Box>
+        <Box ml={5}>
+          {" "}
+          <Link to="/schedule">スケジュール</Link>
+        </Box>
+      </Flex>
+    </nav>
+  </Box>
 )
 
 Header.propTypes = {
