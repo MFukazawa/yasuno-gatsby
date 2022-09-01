@@ -2,6 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { Flex, Spacer, Box, Heading } from "@chakra-ui/react"
+import Drawer from "./drawer"
 
 const Header = ({ siteTitle }) => (
   <Box as={"header"}>
@@ -13,7 +14,8 @@ const Header = ({ siteTitle }) => (
           </Heading>
         </Box>
         <Spacer />
-        <Box>
+        <Drawer />
+        {/* <Box>
           <Link to="/profile">プロフィール</Link>
         </Box>
         <Box ml={5}>
@@ -23,7 +25,7 @@ const Header = ({ siteTitle }) => (
         <Box ml={5}>
           {" "}
           <Link to="/schedule">スケジュール</Link>
-        </Box>
+        </Box> */}
       </Flex>
     </nav>
   </Box>
