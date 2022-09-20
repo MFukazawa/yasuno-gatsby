@@ -1,13 +1,12 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { Button, ButtonGroup } from '@chakra-ui/react'
+import { Button, ButtonGroup } from "@chakra-ui/react"
 
-import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
+  <>
     <Seo title="Home" />
     <StaticImage
       src="../images/yasupeko.png"
@@ -17,7 +16,7 @@ const IndexPage = () => (
       alt="Pekorin-pokochin"
       style={{ marginBottom: `1.45rem` }}
     />
-  </Layout>
+  </>
 )
 
 export default IndexPage

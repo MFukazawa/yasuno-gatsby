@@ -2371,6 +2371,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/shippori-mincho@^4.5.11":
+  version "4.5.11"
+  resolved "https://registry.yarnpkg.com/@fontsource/shippori-mincho/-/shippori-mincho-4.5.11.tgz#0adf9eadb1e2c9859a8a29ef570dd66168e9d691"
+  integrity sha512-TKhMj3EenyLwthlEiNUOUVceRVg49XmzNXElGJ/aVjaEu8eQLMfoZ0ePSf1JRSQRDaGzYGGt7hcEIcayeZpIvA==
+
 "@gatsbyjs/parcel-namer-relative-to-cwd@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-1.7.0.tgz#ddc6cbe8f703a2ca5bf42ca19b603044e094d266"
@@ -6716,11 +6721,6 @@ gatsby-plugin-gatsby-cloud@^4.22.0:
     kebab-hash "^0.1.2"
     lodash "^4.17.21"
     webpack-assets-manifest "^5.1.0"
-
-gatsby-plugin-google-fonts@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-1.0.1.tgz#d71054f7bf207b9a8da227380369e18e6f4e0201"
-  integrity sha512-p1NVkn27GUnDA5qHM+Z4cCcLCJIardzZXMon3640sT4xuL/AZJbsx3HEt2KY/5oZu0UXIkytkxzV2Da4rQeUIg==
 
 gatsby-plugin-image@^2.22.0:
   version "2.22.0"

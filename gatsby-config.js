@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Yasuno Katsuki`,
+    title: `香月 保乃`,
     description: `ボーカル｜ユーフォニアム｜教育`,
     author: `Micah Fukazawa`,
     // siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
@@ -30,13 +30,6 @@ module.exports = {
         // theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [`Shippori Mincho\:400,500,700`],
-        display: "swap",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

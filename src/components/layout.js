@@ -8,10 +8,9 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { Container, Center } from '@chakra-ui/react'
+import { Container, Center } from "@chakra-ui/react"
 
 import Header from "./header"
-import "./layout.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -26,11 +25,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Yasuno Katsuki`} />
-      <Container as={'main'} maxW="container.lg">
+      <Header siteTitle={data.site.siteMetadata?.title || `香月保乃`} />
+      <Container as={"main"} maxW="container.lg">
         {children}
       </Container>
-      <Center as={'footer'} py={5}>
+      <Center as={"footer"} py={5}>
         © {new Date().getFullYear()} Yasuno Katsuki
       </Center>
     </>
